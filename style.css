@@ -1,0 +1,655 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* NAVIGATION */
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left:30px ;
+    /* logo ka left se space */
+}
+.navbar-nav li
+{
+    padding:0 10px ;
+    
+    
+
+}
+.profile{
+    margin-left: 100%;
+    margin: top 50px; 
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/* Center the video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Style the video */
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* ICONS ON THE NAVBAR KA HIGHLIGHT ON SELECTION */
+
+
+
+
+
+.profile{
+    margin: 5px;
+    border-radius: 7px;
+    margin-left: 5px;
+}
+
+.profile:hover{
+    transform: scale(1.2);
+    /* logo pe click karne se uska size badhega */
+    transition: 1s;
+}
+/* 0 from top and left right 10 px padding */
+.navbar-nav li
+{
+    float: right ;
+    text-align: left;
+    font-family: 'Lobster', cursive;
+
+
+}
+#swap{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#nav-bar ul li a:hover
+{
+    color: rgb(250, 248, 253) !important;
+    /* menu touch karne pe konsa colour change ho */
+    
+}
+
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+/* to get a toggle menu when you minimise and shorten the screen space of the website */
+
+{
+    border:none !important
+    /* important is to everwrite bootstrap classes */
+
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 100000;
+    font-size: 16px;
+}
+#slider{
+    width: 100%;
+  
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%) ;
+    bottom: initial!important;
+}
+.carousel-caption h5{
+    color: #f5efef;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+
+}
+
+.carousel-caption h6{
+    color: #f5efef;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+
+}
+.carousel-caption h7{
+    color: #f5efef;
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+
+}
+/* about section  */
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #0f0f10;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom:30px;
+
+}
+.about-content{
+    padding-top: 20px;
+
+}
+.skill-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0f0f10;
+
+}
+.progress-bar{
+    border-radius: 16px;
+    font-family: 'Lobster', cursive;
+    color: #0f0f10;
+}
+.progress{
+    border-radius: 16px!important;
+    margin-bottom:20px ;
+    font-family: 'Lobster', cursive;
+    color: #0f0f10;
+
+
+
+}
+#services{
+    background-image: linear-gradient(rgba(0,0,0.8,0.8),rgb(0,0,0.8,0.8)),url(pictures/house\ 6.jpg);
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    padding-top: 50;
+
+}
+#services h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 70px;
+    margin: 20px auto 5px;
+}
+.icon{
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #f6ebeb;
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+/* to highlight the chosen option */
+
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+h1{
+    text-align: center;
+    color: #555  !important;
+    padding-bottom: 10px;
+}
+h1::after{
+    content: '';
+    background: #09357c;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    /* to get the underline below core team */
+}
+.profile-pic{
+    margin-top: 25px;
+}
+.profile-pic .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+/* image editting */
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top:15px ;
+    color: #490808 !important;
+}
+.profile-pic h3{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top:15px ;
+    
+}
+#team .fa{
+    height: 25px;
+    width: 25px;
+    color: #540e0e !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+
+
+}
+.img-box ul{
+    padding: 15px 0;
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+}
+.img-box ul li{
+    padding: 5px;
+
+    display: inline-block;
+}
+.img-box:hover ul{
+    opacity: 1;
+
+}
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+.img-responsive{
+    height: 300px;
+    width: 250px;
+}
+#promo{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(pictures/house\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+/* price plans */
+#price{
+    padding: 40px 0;
+    background: efefef;
+
+}
+/* price plans */
+#price{
+    padding: 40px 0;
+    /* top and bottom ek saath */
+    background: #efefef;
+
+
+}
+.single-price{
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+
+}
+.single-price:hover{
+    box-shadow: 0 2px 20px #333;
+
+}
+.price-head{
+    background-color:     #4c0d0f;
+    ;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.price-head h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+   
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+.price-head p{
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+.price span{
+    font-size: 15px;
+}
+.price-content{
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+.price-content ul li{
+    border-bottom: 1px solid #efefef;
+        padding: 15px 10px;
+        /* top and bottom ek saath */
+        list-style: none;
+}
+ul li:last-child{
+    border: none;
+}
+.price-button{
+    align-items: center;
+    text-align: center;
+}
+.bi bi-toggle-on{
+    
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+/* kya is pkg mei available hai kya nahi */
+.price-button{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+
+}
+.buy-btn{
+    background-color: #4c0d0f;
+   
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+.buy-btn:hover{
+    border-color: 1px solid #fff;
+    background-color: #aa3034;
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+#home-icon{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(pictures/house\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 5%;
+}
+
+.price-button{
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+.buy-btn{
+    background-color: #4c0d0f;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    color: #efefef;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+/* get in touch */
+#contact{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #540e0e;
+}
+.contact-form{
+    padding: 15px;
+
+}
+.form-control{
+    border-radius: 0 !important;
+    border: none;
+
+}
+::placeholder{
+    color:#490808;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .bi
+{
+    margin: 10px;
+    color:#007bff;
+    font-weight: bold;
+}
+#footer{
+    background: #490808;
+    color: #fff;
+    padding: 12px;
+}
+.fa-heart-o{
+    margin: 3px;
+    color: #490808;
+}
+/* image scroller slow */
+.image-scroller {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.nav-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    /* to make anything roundish use border radius */
+}
+
+.nav-link:hover{
+    background-color: rgb(76, 13, 13);
+    color: brown;
+    transition: 1s;
+}
+
+.image-container {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 18s linear infinite;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+/* flip option in cards */
+.maincontainer{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    margin: 1rem;
+    
+    background: #cbd4de;
+    
+}
+/* only for sizing */
+.thecard{
+    position: absolute;
+    width: 100%;
+    
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+    transform-style: preserve-3d;
+    /* used to flip the front and back together */
+    transition: all 0.5s ease;
+    background: white;
+    
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    grid-area: 1/1;
+    backface-visibility: hidden;
+    background:#cbd4de;
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 18px;
+    
+}
+.cards-section{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+.theback{
+    position: absolute;
+    width: 100%;
+   
+    height: 100%;
+    grid-area: 1/1;
+    backface-visibility: hidden;
+    background: #ccb3bb;
+    color: #ede5e5;
+    transform: rotateY(180deg);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 18px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.296), rgba(0,0,0,0.7)), url(pictures/house\ 2.jpg);
+    
+    
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+/* change colours to make fontawesome icons visible */
+/* nhi hota toh use bootstrap icons instead */
+
+/* 2nd testimonials page */
+#footer2{
+    background: #3e0b22;
+    color: #fff;
+    padding: 12px;
+.about-content2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #0f0f10;
+    text-align: left;
+    background-color: #490808;
+}
+#btn-primary1{
+    color: #3e0b22;
+}
+
+.accordion-button{
+    background-color: #490808;
+}
+.nav-icon{
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    color: #0f0f10;
+}
+
+.bi bi-person{
+    color: #0f0f10;
+    
+}
+section{
+    padding: 5% 10%;
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(pictures/a0.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+.main-text h1{
+    color: #3e0b22;
+    font-size: 65px;
+    line-height: 1;
+    font-weight: 400;
+    margin: 6px 0 10px;
+    text-transform: capitalize;
+}
